@@ -40,9 +40,13 @@ setopt no_beep
 
 # alias
 alias vz='vim ~/.zshrc'
-alias gb='git branch'
-alias gc='git checkout'
-alias gpom='git pull origin master'
+
+alias gbr='git branch'
+alias gck='git checkout'
+alias gpl='git pull'
+alias gps='git push'
+alias gcm='git commit'
+
 alias soz='source ~/.zshrc'
 alias mysql='mysql --auto-rehash'
 
